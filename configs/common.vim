@@ -73,8 +73,8 @@ let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 let g:tagbar_width=30
 
 " JS Standard Style
-let g:syntastic_javascript_checkers = ['standard']
+" let g:syntastic_javascript_checkers = ['standard']
 " For automatic formatting on save
-autocmd bufwritepost *.js silent !standard --fix %
-autocmd bufwritepost *.jsx silent !standard --fix %
-set autoread
+" autocmd bufwritepost *.js silent !standard --fix %
+" autocmd bufwritepost *.jsx silent !standard --fix %
+" set autoread

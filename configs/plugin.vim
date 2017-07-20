@@ -47,11 +47,14 @@ Plugin 'cakebaker/scss-syntax.vim'
 " Plugin 'mustache/vim-mustache-handlebars'
 " Plugin 'darthmall/vim-vue'
 Plugin 'posva/vim-vue'
-Plugin 'maksimr/vim-jsbeautify'
-"Plugin 'gorodinskiy/vim-coloresque'
+" Plugin 'maksimr/vim-jsbeautify'
+" Plugin 'gorodinskiy/vim-coloresque'
+
+" Scala
+Plugin 'derekwyatt/vim-scala'
 
 " Syntax checking hacks for vim
-Plugin 'vim-syntastic/syntastic'
+" Plugin 'vim-syntastic/syntastic'
 
 " Docker
 " Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
@@ -65,6 +68,9 @@ Plugin 'vim-syntastic/syntastic'
 
 " Ruby
 Plugin 'vim-ruby/vim-ruby'
+
+" Ruby Minitest
+Plugin 'sunaku/vim-ruby-minitest'
 
 " Lua
 " Plugin 'vim-misc'
