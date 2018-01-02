@@ -72,6 +72,11 @@ set timeoutlen=500
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 let g:tagbar_width=30
 
+" Ag
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
+
 " JS Standard Style
 " let g:syntastic_javascript_checkers = ['standard']
 " For automatic formatting on save
