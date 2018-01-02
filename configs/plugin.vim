@@ -1,5 +1,5 @@
 Plugin 'gmarik/Vundle.vim'
-Plugin 'sjbach/lusty'
+" Plugin 'sjbach/lusty'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
@@ -15,7 +15,10 @@ Plugin 'tpope/vim-fugitive'
 " Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Raimondi/delimitMate'
-Plugin 'rking/ag.vim'
+
+" Deprecated
+" Plugin 'rking/ag.vim'
+Plugin 'mileszs/ack.vim'
 "Plugin 'Shougo/neocomplete.vim'
 
 " Snippets
@@ -75,6 +78,9 @@ Plugin 'sunaku/vim-ruby-minitest'
 " Lua
 " Plugin 'vim-misc'
 " Plugin 'lua.vim'
+
+" GraphQL
+Plug 'jparise/vim-graphql'
 
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
